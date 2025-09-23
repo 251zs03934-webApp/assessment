@@ -26,7 +26,7 @@ resultDivision.innerText = '';
     bodyDivision.setAttribute('class', 'card-body');
 
     const paragraph = document.createElement('p');
-    paragraph.setAttribute('class', 'sard-text');
+    paragraph.setAttribute('class', 'card-text');
     const result = assessment(userName);
     paragraph.innerText = result;
     bodyDivision.appendChild(paragraph);
